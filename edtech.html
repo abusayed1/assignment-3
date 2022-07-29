@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Web Development Courses for beginner</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
-<body class="m-5 borer border border-danger">
+<body style="font-family: 'PT Serif', serif;
+font-family: 'Roboto Slab', serif;" class="m-5 borer border border-danger">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -101,7 +106,7 @@
     </div>
        <!-- banner -->
      <!-- our popular courses -->
-     <div class="container d-flex justify-content-center mt-2 mb-2 bg-danger">
+     <div class="container d-flex justify-content-center mt-2 mb-2">
        <div >
         <h1>Discover Our Popular
         Courses</h1>
@@ -231,7 +236,7 @@
           <div class="d-flex justify-content-end">
                   <!-- Button trigger modal -->
              <button type="button" class="btn btn-light p-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Register Now
+               <b>Register Now</b> 
              </button>
           </div>
                  <!-- Modal -->
@@ -316,37 +321,153 @@
               content of a page when looking at its layout</p>
           </div>
       </div>
-      <div class="container">
-          <div class="d-flex row "> 
-              <div class="col-6">
-                 <div class="d-flex">
+  <div class="container">
+        <div class="d-flex row"> 
+              <div class="col-6 border border-dark rounded pe-3">
+                <div class="d-flex">
                      <div> <img src="images/comma.png" alt=""> </div>
                      <div><i class="fa-solid fa-star "></i><i class="fa-solid fa-star">
                      </i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
                     </div>
-                  </div>
+                </div>
                   <div>
                     <p>There are many variations of passages of Lorem Ipsum available, but 
                       the majority have suffered alteration in some form, by injected 
                       humour, or randomised words which don't look even slightly 
                       believable. If you are going to use a passage of Lorem.</p>
-                      
+                      <div class="d-flex">
+                        <div>
+                          <img src="images/student/student-5.png" alt="">
+                        </div>
+                        <div>
+                          <p>awlad hossin</p>
+                          <p>UI deginer</p>
+                        </div>
                   </div>
               </div>
-              <div class="col-6">
-                 <div class="d-flex">
-                     <div> <img src="images/comma.png" alt=""> </div>
-                     <div><i class="fa-solid fa-star "></i><i class="fa-solid fa-star">
-                     </i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                  </div>
-              </div>
-                
           </div>
-      </div>
-
+         
+          <div class="col-6 ps-3 border border-primary rounded " >
+            <div class="d-flex">
+                 <div> <img src="images/comma.png" alt=""> </div>
+                 <div><i class="fa-solid fa-star "></i><i class="fa-solid fa-star">
+                 </i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+              <div>
+                <p>There are many variations of passages of Lorem Ipsum available, but 
+                  the majority have suffered alteration in some form, by injected 
+                  humour, or randomised words which don't look even slightly 
+                  believable. If you are going to use a passage of Lorem.</p>
+                  <div class="d-flex">
+                    <div>
+                      <img src="images/student/student-5.png" alt="">
+                    </div>
+                    <div>
+                      <p>awlad hossin</p>
+                      <p>UI deginer</p>
+                    </div>
+              </div>
+          </div>
+      </div>               
+  </div>
       <!-- student feedback -->
+
+      <!-- most wanted quetionsz -->
+      <div class="container w-50 mt-5 mb-5">
+        <div class="d-flex-colume justify-content-center">
+             <h1>Frequently Asked Questions</h1>
+             <p>It is a long established fact that a reader will be <br>  distracted by the readable 
+              content of a page when <br> looking at its layout</p>
+        </div>
+      
+      
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                Accordion Item #4
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- most wanted quetionsz -->
+      <!-- trusted company -->
+    <div class="container">
+         <div class="d-flex justify-content-center mb-5">
+          <h1>Trusted by over 800+ companies</h1>
+         </div>
+      
+       <div class="d-flex justify-content-between mb-5">
+            <div><img src="images/company/company-1.png" alt=""></div>
+            <div><img src="images/company/company-2.png" alt=""></div>
+            <div><img src="images/company/company-3.png" alt=""></div>
+            <div><img src="images/company/company-4.png" alt=""></div>
+            <div><img src="images/company/company-5.png" alt=""></div>
+            <div><img src="images/company/company-6.png" alt=""></div>
+       </div>  
+    </div>
+      <!-- trusted company -->
       <script src="https://kit.fontawesome.com/38affa7539.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<footer>
+     <div class="w-100 bg-dark ">
+          <div class="text-light m-5 p-5">
+             <div> <h1>Pro Edu</h1></div>
+             <div><p>Office 41, Zawaya Buildin, Ghala Muscat, 
+               <br>
+              Sultanate of Oman</p></div>
+             <div> <p>Privacy Ploicy | Terms of use</p></div>
+             <div class="d-flex">
+                  <div class="p-2"><i class="fa-brands fa-square-facebook"></i></div>
+                  <div class="p-2"><i class="fa-brands fa-twitter"></i></div>
+                  <div class="p-2"><i class="fa-brands fa-linkedin"></i></div>
+                  <div class="p-2"><i class="fa-brands fa-tiktok"></i></div>
+             </div>
+          </div>
+     </div>
+</footer>
 </html>
